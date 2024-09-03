@@ -51,6 +51,19 @@
         "desktopImage": "/royal_game.svg"
     },
     {
+        "name": "Sports Data Analysis and Visualization",
+        "icons": [
+            "Python",
+            "Jupyter",
+            "pandas",
+            "plotly",
+            "scikit-learn",
+            "selenium"
+        ],
+        "description": "Led a team of 15 students who proposed and researched sports-related data stories. Taught exploratory data analysis, data visualization, machine learning and statistical modelling.",
+        "desktopImage": "/sport_data.png"
+    },
+    {
         "name": "Reinforcement Learning Crashcourse",
         "github": "https://github.com/MichiganDataScienceTeam/F23-Reinforcement-Learning",
         "icons": [
