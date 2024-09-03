@@ -1,26 +1,32 @@
 import {
-    IoLogoGithub, IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoOpenOutline, IoLogoLinkedin, IoLogoReact, IoLogoFigma, IoSunny, IoMoon
+    IoOpenOutline, IoSunny, IoMoon
 } from "react-icons/io5";
+import { SiPython, SiRust, SiJupyter, SiPandas, SiPlotly, SiPytorch, SiTensorflow, SiKeras, SiSelenium, SiScikitlearn, SiOpenaigym, SiNginx, SiGunicorn, SiGit, SiGithub, SiLinkedin, SiOpenai } from "react-icons/si";
+import { BiLogoAws } from "react-icons/bi";
 
-import { BsFillBootstrapFill } from "react-icons/bs"
-import { SiTailwindcss, SiNextdotjs, SiAdobexd } from "react-icons/si"
 import { createElement } from "react";
 
 const iconMap = {
-    "HTML": IoLogoHtml5,
-    "JavaScript": IoLogoJavascript,
-    "CSS": IoLogoCss3,
-    "Bootstrap": BsFillBootstrapFill,
-    "Tailwind": SiTailwindcss,
-    "NextJS": SiNextdotjs,
-    "React": IoLogoReact,
-    "Figma": IoLogoFigma,
-    "Adobe Xd": SiAdobexd,
-    linkedin: IoLogoLinkedin,
-    github: IoLogoGithub,
+    linkedin: SiLinkedin,
+    github: SiGithub,
     open: IoOpenOutline,
     sun: IoSunny,
-    moon: IoMoon
+    moon: IoMoon,
+    Python: SiPython,
+    Rust: SiRust,
+    Jupyter: SiJupyter,
+    Pytorch: SiPytorch,
+    TensorFlow: SiTensorflow,
+    Keras: SiKeras,
+    pandas: SiPandas,
+    plotly: SiPlotly,
+    selenium: SiSelenium,
+    gymnasium: SiOpenaigym,
+    "scikit-learn": SiScikitlearn,
+    aws: BiLogoAws,
+    nginx: SiNginx,
+    gunicorn: SiGunicorn,
+    git: SiGit,
 
 };
 

@@ -7,8 +7,6 @@ export default function ProjectSection({ left, data }) {
 
         <div className={`lg:w-10/12 relative ${left ? 'ml-auto' : 'mr-auto'}`}>
             <DesktopImage image={data?.desktopImage} name={data?.name} />
-            <MobileImage image={data?.mobileImage} name={data?.name} left={left} />
-
         </div>
         <div className={`${data?.desktopImage ? 'lg:absolute lg:rounded-t-lg lg:-translate-y-1/2 top-1/2 lg:w-5/12' : 'rounded-t-lg'} bg-slate-400  dark:bg-slate-600 drop-shadow p-4 rounded-b-lg w-full  ${left ? 'left-0' : 'right-0'}`} >
             <div className='flex text-3xl bold justify-between items-center mb-2'>
@@ -53,27 +51,6 @@ function DesktopImage({ name, image }) {
                     src={image}
                     alt={name + " desktop view"}
                 />
-            </div>
-        )
-    } else {
-        return null
-    }
-}
-
-function MobileImage({ name, image, left }) {
-    if (name && image) {
-        return (
-            <div className={`mockup-phone hidden lg:block scale-[.4] lg:scale-50 absolute -bottom-4 ${left ? "origin-bottom-right right-4" : "origin-bottom-left left-4"}`}>
-                <div className="camera"></div>
-                <div className="display">
-                    <Image
-                        className="artboard artboard-demo phone-5 "
-                        width={390}
-                        height={844}
-                        src={image}
-                        alt={name + " mobile view"}
-                    />
-                </div>
             </div>
         )
     } else {

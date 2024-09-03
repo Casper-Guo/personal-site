@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Footer from '@/components/footer';
 
 export const metadata = {
-    title: 'Resume - Jay Shaver',
+    title: 'Resume - Casper Guo',
     icons: {
         icon: '/logo.png',
         // shortcut: '/shortcut-icon.png',
@@ -17,64 +17,30 @@ export const metadata = {
 export default function Resume() {
     const resume = [
         {
-            "company": "Caterpillar",
-            "dates": "May 2023 – Present",
-            "role": "Data Scientist Intern, Front End Intern",
-            "location": "Chicago, IL",
-            "image": "/logos/cat.jpeg",
+            "company": "Shopify",
+            "dates": "May - Aug 2022",
+            "role": "Data Science Intern, Shopify Payments",
+            "location": "Toront, ON & Vancouver, BC",
+            "image": "/logos/shopify.png",
             "bullets": [
-                "Devised and executed a proof of concept (POC) leveraging Python, Pandas, AWS, and Snowflake along with clustering techniques (K-Means and Hierarchical Clustering) to produce accurate part recommendations to customers.",
-                "Operated in an Agile environment and created progress presentations communicating to stakeholders.",
-                "Built Angular components and email templates for CAT’s Vision Link app, enhancing user experience & accessibility.",
-                "Constructed a front-end in React and integrated an LLM with an API for a hackathon translation app."
-            ]
-        },
-        {
-            "company": "Dewberry - Michigan Data Science Team",
-            "dates": "Jan 2023 – Present",
-            "role": "Project Lead",
-            "location": "Ann Arbor, MI",
-            "image": "/logos/dewberry.jpeg",
-            "bullets": [
-                "Managed 10 people in constructing a model to predict fire spread to increase safety among their products.",
-                "Tested Autoencoders and U-Nets in PyTorch to increase predictive accuracy of the model.",
-                "Deployed our model into Dewberry’s ecosystem so the company can leverage the model and design safer products."
+                "Implemented and maintained Spark and SQL data pipelines to unblock SP deployment in France, improve data transformation workflow for three downstream teams, and contribute three new KPIs to company-wide dashboard",
+                "Created four interactive KPI dashboards for stakeholders and clients using SQL, Matplotlib, and Plotly",
+                "Processed and analyzed data gathered from an A/B test on onboarding email designs using Bayesian hypothesis testing and prepared visualizations for presentation to the marketing manager",
+                "Performed a week of on-call duty involving handling data requests using Trino and BigQuery and triaging and debugging failing pipelines"
             ]
         },
         {
             "company": "Michigan Data Science Team",
-            "dates": "Aug 2021 – Present",
-            "role": "Project Lead, Web Designer, Mentor",
+            "dates": "Aug 2021 - Aug 2024",
+            "role": "Vice President of Education, Project Lead",
             "location": "Ann Arbor, MI",
             "image": "/logos/mdst.png",
             "bullets": [
-                "Led 3 projects of 15 members in building NLP sentiment analysis, wildfire spread prediction, and poker bot, enhancing team members' expertise in data analysis, ML, PyTorch, and Python while providing mentorship to underclassmen.",
-                "Redesigned and implemented the club's website using Figma, React, Next.js, Tailwind CSS, and GitHub Actions for a professional and modern look and easy-to-edit interface, resulting in a 147% increase in traffic.",
-                "Collaborated in 4 other projects such as building a stock prediction model with 52% accuracy in TensorFlow as well as visualizing and analyzing 100 congressional stock portfolios for unfair gains with Tableau, Python, and Pandas."
-            ]
-        },
-        {
-            "company": "Imbe Solutions (Web Design Company)",
-            "dates": "Nov 2018 – Present",
-            "role": "Co-founder, Lead Developer",
-            "location": "St. Paul, MN",
-            "image": "/logos/imbe-solutions.png",
-            "bullets": [
-                "Designed, Developed and Maintained websites for clients such as Claricity Consulting using Adobe XD, Bootstrap and Netlify to increase website engagement and revenue.",
-                "Implemented version control and continuous deployment thought Git and GitHub actions to streamline the development process and cut time by 30%.",
-                "Tracked invoices and managed company financials using Google Sheets to ensure profitability."
-            ]
-        },
-        {
-            "company": "Infinite Degrees",
-            "dates": "Oct 2022 – Jan 2023",
-            "role": "Full Stack Intern",
-            "location": "Ann Arbor, MI",
-            "image": "/logos/infinite-degrees.jpeg",
-            "bullets": [
-                "Executed the development of 3 application features, utilizing Ionic, React, and Tailwind CSS off Figma mockups.",
-                "Interacted with an Azure database, hydrating relevant content to the application and elevating user experience.",
-                "Employed Beautiful Soup for web scraping, extracting ski and snowboard competition results to establish rankings."
+                "Project lead for webscrapping & video synthesis, reinforcement learning, image colorization, and sports data analysis and visualization (see projects page)",
+                "Collaborated with other execs on semesterly new member recruiting effort by developing onboarding materials, increased club enrollment by 200+% over two-year tenure",
+                "Revamped two Python tutorials, developed statistics and machine learning challenges, improved setup guides, created a troubleshooting FAQ document, and oversaw a Q&A forum for 100+ new members every semester",
+                "Managed weekly office hours and tutorial sessions with 150+ total attendees to lower the barrier of entry to data science",
+                "Built job opportunity repositories for members with no-code contribution workflows via GitHub actions"
             ]
         }
     ];
@@ -95,16 +61,24 @@ export default function Resume() {
                         <h2 className="text-3xl font-bold">
                             EDUCATION 👨‍🎓
                         </h2>
-                        <div className="divider my-0"></div>
+                        <Experience data={{
+                            "company": "Georgia Institute of Technology",
+                            "dates": "Aug 2024 - Apr 2026",
+                            "role": "Master's of Science in Computer Science, Specialization: Computing Systems",
+                            "location": "Atlanta, GA",
+                            "image": "/logos/GT.png",
+                        }} ><p>
+                                <span className="font-bold">Coursework:</span> Computer Networks, Database Implementation, Operating Systems, Algorithms, Tech Policy & Privacy Law, Online Communities
+                            </p></Experience>
                         <Experience data={{
                             "company": "University of Michigan",
                             "dates": "Aug 2020 - May 2024",
-                            "role": "Data Science Major Bachelor of Science in Engineering, Business Minor - 3.912/4.00 GPA",
+                            "role": "Bachelor of Science in Engineering in Data Science summa cum laude, Math Minor, Linguistics Minor - 3.90/4.00 GPA",
                             "location": "Ann Arbor, MI",
                             "image": "/logos/michigan.png",
 
                         }} ><p>
-                                <span className="font-bold">Coursework:</span> Algorithms & Data Structures, Computer Organization, Conversational AI, Database Management Systems, Linear Regression, Data Mining, Basic Probability, Agent Based Modeling, Machine Learning, Mathematics in Finance, Web Systems
+                                <span className="font-bold">Coursework:</span> Machine Learning, Software Engineering, Data Structure & Algorithms, Web Systems, Computer Organization, Natural Language Processing, Applied Regression Analysis, Combinatorics & Graph Theory, Reinforcement Learning, Quantum Computing, Information Retrieval
                             </p></Experience>
                     </div>
                     <div className='py-2'>

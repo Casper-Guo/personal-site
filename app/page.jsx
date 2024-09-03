@@ -8,7 +8,7 @@ import ProjectSection from '@/components/projectSection';
 import { getProjectsData } from "@/lib/projects"
 
 export const metadata = {
-  title: 'Jay Shaver',
+  title: 'Casper Guo',
   icons: {
     icon: '/logo.png',
     // shortcut: '/shortcut-icon.png',
@@ -43,13 +43,15 @@ export default async function Home() {
             className="rounded h-[400px] w-auto object-cover md:mr-auto "
             width={500}
             height={500}
-            src="/Snowboarding.jpg"
-            alt="Me, Jay Shaver"
+            src="/profile_pic.png"
+            alt="Me, myself, and I"
           />
           <div className='md:w-2/3 lg:w-1/2'>
-            <h2 className='text-3xl font-bold mb-2'>A little more about me</h2>
-            <p className='mb-2'>I am a Senior at the University of Michigan and working part time for Caterpillar. I have worked on projects such as creating websites for clients, sentiment analysis, customer segmentation, product recommendation, voice chat bot for calorie tracking and Reddit storytime TikTok video generator.</p>
-            <p className='mb-4'>I love watching sports especially F1 🏎️ and Hockey 🏒 - Go Oilers. I run analysis on F1 race performances and create visualizations for different driver metrics. I also enjoy snowboarding and am a member of the Michigan Snowboarding Club.</p>
+            <h2 className='text-3xl font-bold mb-2'>A bit about me</h2>
+            <p className='mb-2'>I graduated from the University of Michigan in 2024 with a bachelor of science in engineering in data science <i>summa cum laude</i>. I also completed two minors, in math and linguistics respectively. 〽️ Go Blue! 〽️</p>
+            <p className='mb-2'>I am now pursuing a master's degree in computer science at the Georgia Institute of Technology, expecting to graduate in spring 2026. 🐝 Sting 'Em! 🐝</p>
+            <p className='mb-2'>You can probably guess by now that I am a big college football fan. I will also not give up an opportunity to nerd out about formula 1 🏎️ and talk your ears about soccer ⚽.</p>
+            <p className='mb-2'>Otherwise, catch me on the hiking trails 🗻 or in the theaters 🎭.</p>
             <Button text="View My Resume 📄" href='/resume' />
           </div>
         </div>

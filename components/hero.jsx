@@ -8,11 +8,11 @@ export default function Hero() {
           <h1 className="text-5xl font-extrabold self-align-center">
             👋 I&apos;m{' '}
             <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-              Jay
+              Casper
             </span>
           </h1>
           <p className="mt-2">
-            Current University of Michigan student 〽️ studying data science and business. Interested in Natural Language Processing 💬 and Web Design 🖥️.
+            University of Michigan data science class of 2024 〽️, now MSCS @ Georgia Tech. Interested in working in data science 📈, data engineering 🔢, and open-source 🔓.
           </p>
           <div className="flex justify-start gap-5 pt-2 flex-wrap">
             <Link
@@ -34,8 +34,8 @@ export default function Hero() {
           className="rounded h-[400px] w-auto object-cover md:ml-auto "
           width={500}
           height={500}
-          src="/headshot.jpg"
-          alt="Me, Jay Shaver"
+          src="/portrait.jpg"
+          alt="Me, myself, and I"
         />
       </div>
     </div>

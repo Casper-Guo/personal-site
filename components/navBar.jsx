@@ -67,7 +67,7 @@ export default function Navbar() {
             <MobileNav open={open} setOpen={setOpen} />
             <div className="w-1/2 flex items-center z-50">
                 <Link className="text-2xl font-semibold" href="/">
-                    Jay Shaver
+                    Casper Guo
                 </Link>
             </div>
             <div className="w-9/12 flex flex-row-reverse sm:flex-row justify-start sm:justify-end items-center gap-6">

@@ -1,78 +1,65 @@
 [
     {
-        "name": "Claricity Consulting",
-        "link": "https://claricity.consulting/",
+        "name": "Armchair Strategist - A Formula 1 Strategy Dashboard",
+        "link": "https://armchair-strategist.dev/",
+        "github": "https://github.com/Casper-Guo/Armchair-Strategist",
         "icons": [
-            "Bootstrap",
-            "JavaScript",
-            "CSS",
-            "HTML"
+            "Python",
+            "pandas",
+            "plotly",
+            "aws",
+            "nginx",
+            "gunicorn"
         ],
-        "description": "Created a modern and responsive single page website for Claricity Consulting using Bootstrap, JavaScript, CSS and HTML. Also set up company email and website hosting.",
-        "mobileImage": "/claricity.consulting_(iPhone 12 Pro).png",
-        "desktopImage": "/claricity.consulting.png"
+        "description": "Implemented data transformation pipelines with Pandas. Developed interactive dashboard with plotly dash. Deployed on AWS using EC2, S3, and Route 53 with automated data refresh and daily code deployment.",
+        "desktopImage": "/armchair-strategist.png"
     },
     {
-        "name": "Michigan Data Science Team",
-        "github": "https://github.com/MichiganDataScienceTeam/website-redesign",
-        "link": "https://mdst.club",
+        "name": "Image Colorization with Generative Adversarial Network (GAN)",
+        "github": "https://github.com/MichiganDataScienceTeam/W23-Image-Colorization",
         "icons": [
-            "Figma",
-            "NextJS",
-            "Tailwind"
+            "Python",
+            "Jupyter",
+            "Pytorch",
+            "TensorFlow",
+            "Keras"
         ],
-        "description": "This work was done for the Michigan Data Science Team - MDST, a club at the University of Michigan. Designed a mockup in Figma. Then implemented website features using NextJS (React Framework) and Tailwind. The website was designed to be edited easily and almost all text, images and other assets are configurable.",
-        "mobileImage": "/mdst.club_(iPhone 12 Pro).png",
-        "desktopImage": "/mdst.club.png"
+        "description": "Co-led a team of 15. Trained cGAN with U-Net architecture on 25,000-image MIRFLICKR dataset using slurm on University of Michigan's Great Lakes HPC Cluster",
+        "desktopImage": "/cloud.jpg"
     },
     {
-        "name": "In2ition Research, Inc.",
-        "link": "https://in2itioninc.com",
+        "name": "Rate My Professors (RMP) Sentiment Analysis",
+        "github": "https://github.com/Casper-Guo/EECS-486-RMP-Sentiment-Analysis",
         "icons": [
-            "Adobe Xd",
-            "Bootstrap",
-            "JavaScript",
-            "CSS",
-            "HTML"
+            "Python",
+            "Jupyter",
+            "pandas",
+            "selenium",
+            "scikit-learn"
         ],
-        "description": "Created a mockup in Adobe Xd. Then implemented it with basic HTML and JavaScript, leveraging Bootstrap and CSS for styling.",
-        "mobileImage": "/in2itioninc.com_(iPhone 12 Pro).png",
-        "desktopImage": "/in2itioninc.com.png"
+        "description": "Scraped data of 3500 professors from RMP using selenium and beautifulsoup. Optimized and benchmarked seven models and three text encodings for sentiment analysis task. Achieved >0.80 precision and recall.",
+        "desktopImage": "/rmp.png"
     },
     {
-        "name": "Pocket Planes Calculator",
-        "github": "https://github.com/Jmshaver/Pocket-Planes",
-        "link": "https://jmshaver.github.io/Pocket-Planes/",
+        "name": "Royal Game of Ur Optimizer",
+        "github": "https://github.com/Casper-Guo/Optimal-Royal-Game",
         "icons": [
-            "React",
-            "Tailwind"
+            "Python",
+            "Rust"
         ],
-        "description": "I love playing Pocket Planes on my phone and found that current calculators didn't work well on mobile devices becuase they were not user friendly or accessible. Made improvements such as styling searchable drop down and more accessible layout.",
-        "mobileImage": "/jmshaver.github.io_Pocket-Planes_(iPhone 12 Pro).png",
-        "desktopImage": "/jmshaver.github.io_Pocket-Planes.png"
+        "description": "Built tournament-style evaluation CLI for game-playing agents. Implemented asynchronous dynamic programming value iteration in Rust to calculate the optimal strategy for an ancient board game.",
+        "desktopImage": "/royal_game.svg"
     },
     {
-        "name": "M-Hub",
-        "github": "https://github.com/Jmshaver/M-Hub-Website",
-        "link": "https://m-hub.club",
+        "name": "Reinforcement Learning Crashcourse",
+        "github": "https://github.com/MichiganDataScienceTeam/F23-Reinforcement-Learning",
         "icons": [
-            "NextJS",
-            "Tailwind"
+            "Python",
+            "Jupyter",
+            "Pytorch",
+            "gymnasium"
         ],
-        "description": "Created a single page website based on MDST website (see above) for The Business Research Club at Michigan, another club at the University of Michigan.",
-        "mobileImage": "/m-hub.club_(iPhone 12 Pro).png",
-        "desktopImage": "/m-hub.club.png"
-    },
-    {
-        "name": "Headquarters Economy",
-        "link": "https://headquarterseconomy.com/",
-        "icons": [
-            "JavaScript",
-            "CSS",
-            "HTML"
-        ],
-        "description": "Created a responsive website only using base HTML, CSS and JavaScript to help promote a new book launch. Also created HTML email signature to advertise the book. ",
-        "mobileImage": "/headquarterseconomy.com_(iPhone 12 Pro).png",
-        "desktopImage": "/headquarterseconomy.com.png"
+        "description": "Co-led a team of 10. Taught the basics of reinforcement learning and trained an agent to land a simulated lunar lander using advantage actor-critic method.",
+        "desktopImage": "/lunar_lander.png"
     }
 ]
