@@ -49,7 +49,7 @@ export default async function Home() {
           <div className='md:w-2/3 lg:w-1/2'>
             <h2 className='text-3xl font-bold mb-2'>A bit about me</h2>
             <p className='mb-2'>I graduated from the University of Michigan in 2024 with a bachelor of science in engineering in data science <i>summa cum laude</i>. I also completed two minors, in math and linguistics respectively. 〽️ Go Blue! 〽️</p>
-            <p className='mb-2'>I am now pursuing a master's degree in computer science at the Georgia Institute of Technology, expecting to graduate in spring 2026. 🐝 Sting 'Em! 🐝</p>
+            <p className='mb-2'>I am now pursuing a master&apos;s degree in computer science at the Georgia Institute of Technology, expecting to graduate in spring 2026. 🐝 Sting &apos;Em! 🐝</p>
             <p className='mb-2'>You can probably guess by now that I am a big college football fan. I will also not give up an opportunity to nerd out about formula 1 🏎️ and talk your ears about soccer ⚽.</p>
             <p className='mb-2'>Otherwise, catch me on the hiking trails 🗻 or in the theaters 🎭.</p>
             <Button text="View My Resume 📄" href='/resume' />
